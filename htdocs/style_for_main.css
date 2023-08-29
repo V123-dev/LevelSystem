@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+body {
+    text-align: center;
+    background-color: #1e6b7b;
+    /*background: rgb(234, 234, 234);*/
+    display: table-cell;
+}
+
+div.System_all_area{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+div.System_outline_area{
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: center;
+
+    position: relative;
+    border: none;
+    padding: 10px 55px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    background-color: aliceblue;
+    color: #1e6b7b;
+}
+p{
+    line-height: 5px;
+}
+
+div.system_inline_area{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+    background-color: aliceblue;
+}
+/*------------------------------------------------------------------------*/
+
+div.Levelup_all_area{
+    margin-top: 50px;
+    display: inline-block;
+}
+
+div.Levelup_outline_area{
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: center;
+
+    position: relative;
+    border: none;
+    padding: 10px 55px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    background-color: aliceblue;
+    color: #1e6b7b;
+}
+p{
+    line-height: 5px;
+}
+
+div.levelup_inline_area{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+    background-color: aliceblue;
+}
+
+/*------------------------------------------------------------------------*/
+
+div.Complete_all_area{
+    margin-top: 50px;
+    display: inline-block;
+}
+
+div.Complete_outline_area{
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: center;
+
+    position: relative;
+    border: none;
+    padding: 10px 55px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
+    color: white;
+}
+
+div.Complete_outline_area:hover{
+    transform: scale(1.2);
+}
+
+p{
+    line-height: 5px;
+}
+
+div.Complete_inline_area{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
+    box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.w-btn-gra-anim {
+    background-size: 400% 400%;
+    animation: gradient1 5s ease infinite;
+}
+
+div.information_window{
+    background-image: url("http://localhost/q.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 30px;    
+    box-shadow: 12px 12px 24px rgb(0, 0, 0);
+}
+
+div.Classes{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 15px;
+    box-shadow: 12px 12px 24px rgba(0, 0, 0);
+    background-color: black;
+    color: red;
+    margin-top: 310px;
+}
+/*----------------------------------------------------*/
+div.items{
+    border: none;
+    width: 250px;
+    height: 350px;
+    margin-left: 400px;
+    display: inline-block;
+}
+
+div.items2{
+    border: none;
+    width: 250px;
+    height: 350px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+
+.w-btn-outline {
+    bottom: 300px;
+    left: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    padding: 30px 60px;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn-outline:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.w-btn-indigo-outline {
+    border: 3px solid aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn-indigo-outline:hover {
+    color: #1e6b7b;
+    background: aliceblue;
+}
+
+.hide{
+    display: none;
+}

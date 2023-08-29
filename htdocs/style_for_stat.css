@@ -1,0 +1,283 @@
+body {
+    background-color:black;
+    /*background: rgb(234, 234, 234);*/
+    display: table-cell;
+}
+
+div.control{
+    display: inline-block;
+}
+.math{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+}
+
+.physics{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+}
+
+.Biology{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+}
+
+.Chemistry{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+}
+
+.Korean{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+}
+
+.Technology{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+}
+
+.Health{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+}
+
+
+div.stat_column{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+    margin-top : 30px;
+    margin-left: 50px;
+    display : inline-block;
+    position: relative;
+}
+
+P{
+    background-color: red;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 130px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 15px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+
+p.title_math{
+    position: relative;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 850px;
+    top: 540px;
+    border: none;
+    width: 150px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+p.title_physics{
+    position: relative;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 850px;
+    top: 640px;
+    border: none;
+    width: 150px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+p.title_Biology{
+    position: relative;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 850px;
+    top: 740px;
+    border: none;
+    width: 150px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+p.title_Chemistry{
+    position: relative;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 850px;
+    top: 840px;
+    border: none;
+    width: 150px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+p.title_Korean{
+    position: relative;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 850px;
+    top: 940px;
+    border: none;
+    width: 200px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+p.title_Technology{
+    position: relative;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 850px;
+    top: 1040px;
+    border: none;
+    width: 150px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+p.title_Health{
+    position: relative;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 850px;
+    top: 1130px;
+    border: none;
+    width: 150px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+
+@keyframes ring {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+    100% {
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+    }
+}
+
+.w-btn-neon2 {
+    margin-top: 50px;
+    margin-left: 330px;
+    position: relative;
+    border: none;
+    min-width: 200px;
+    min-height: 50px;
+    background: linear-gradient(
+        90deg,
+        rgba(129, 230, 217, 1) 0%,
+        rgba(79, 209, 197, 1) 100%
+    );
+    border-radius: 1000px;
+    color: darkslategray;
+    cursor: pointer;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.w-btn-neon2:hover {
+    transform: scale(1.2);
+}
+
+.w-btn-neon2:hover::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00ffcb;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+
+/*-------------------------------------*/
+.w-btn-custom-neon2 {
+    margin-top: 1px;
+    bottom: 75px;
+    margin-left: 650px;
+    position: relative;
+    border: none;
+    min-width: 100px;
+    min-height: 50px;
+    background: linear-gradient(
+        90deg,
+        rgba(129, 230, 217, 1) 0%,
+        rgba(79, 209, 197, 1) 100%
+    );
+    border-radius: 1000px;
+    color: darkslategray;
+    cursor: pointer;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+    font-weight: 900;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.w-btn-custom-neon2:hover {
+    transform: scale(1.2);
+}
+
+.w-btn-custom-neon2:hover::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00ffcb;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+
+#frm{
+    display: none;    
+}
+
+.stat_counter{
+    color: whitesmoke;
+}
