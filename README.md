@@ -1,6 +1,7 @@
 # Level System(Guide)
 ---
 #### 이 글에서는 (Level System)을 커스텀 머이징 하는 방법에 대해 다룹니다.
+#### ***[+]프로젝트와 관련된 모든 파일은 htdocs폴더 안에 있습니다***
 ## <수정 가능한 기능 목록>
 * Stat
 * Reset Button
